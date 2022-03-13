@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dyno Admin</string>
+    <string name="headline">I am the headline</string>
+    <string name="body">I am the body who describes news</string>
+    <string name="title">DYNO ADMIN</string>
+</resources>

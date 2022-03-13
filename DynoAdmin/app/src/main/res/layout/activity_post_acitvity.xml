@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostAcitvity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+              <EditText
+                  android:id="@+id/headlinetext"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:gravity="top"
+                  android:textSize="22sp"
+                  android:padding="8dp"
+                  android:inputType="text"
+                  android:hint="I am the headline"
+                  android:background="@drawable/round_text"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:maxHeight="150dp"
+                android:textSize="20sp"
+                android:layout_margin="12dp"
+                android:padding="8dp"
+                android:gravity="top"
+                android:hint="I am the Short Section"
+                android:background="@drawable/round_text"/>
+
+            <EditText
+                android:id="@+id/urltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textImeMultiLine"
+                android:hint="URL OF IMAGE"
+                android:layout_margin="12dp"
+                android:background="@drawable/round_text"
+                android:padding="8dp"/>
+
+            <EditText
+                android:id="@+id/completenews"
+                android:layout_width="match_parent"
+                android:minHeight="200dp"
+                android:layout_height="match_parent"
+                android:maxHeight="500dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/round_text"
+                android:gravity="top"
+                android:hint="Complete News Goes Here"
+                android:padding="8dp"/>
+
+            <Button
+                android:id="@+id/addpost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="ADD POST"
+                android:textColor="@color/black"/>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/headlinetext"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:hint="Title"-->
+<!--        android:inputType="text"-->
+<!--        android:padding="8dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:gravity="top"-->
+<!--        android:background="@drawable/round_text" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/urltext"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:hint="Image Url"-->
+<!--        android:padding="8dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@drawable/round_text" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/description"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:hint="Short Description"-->
+<!--        android:padding="8dp"-->
+<!--        android:gravity="top"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="26dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@drawable/round_text" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/completenews"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="280dp"-->
+<!--        android:padding="8dp"-->
+<!--        android:gravity="top"-->
+<!--        android:hint="Complete News"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="26dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@drawable/round_text" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addpost"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="144dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@color/black"-->
+<!--        android:backgroundTint="#D89595"-->
+<!--        android:text="ADD POST"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20sp" />-->
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
