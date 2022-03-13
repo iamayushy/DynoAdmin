@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324923130636",
+    "project_id": "double-838bf",
+    "storage_bucket": "double-838bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324923130636:android:dfcbf44d8c7e901efcff29",
+        "android_client_info": {
+          "package_name": "com.example.adouble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324923130636-etg8lo9flvcn86v82d233hstqg4o7thm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFVW7uFJQm1v3iv0yc0JOm1YA0dIItov0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324923130636-etg8lo9flvcn86v82d233hstqg4o7thm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

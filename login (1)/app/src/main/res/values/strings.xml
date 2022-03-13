@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dyno</string>
+    <string name="add_post">Add Post</string>
+    <string name="button">ADD POST</string>
+    <string name="maind">What\'s In Your Mind</string>
+    <string name="enter_your_location">Enter Your Location</string>
+    <string name="likedpost">Likedpost</string>
+    <string name="Dummy">Whats In Your Mind</string>
+    <string name="social_duno">Social Duno</string>
+    <string name="body">I am body</string>
+    <string name="head">I am the head</string>
+    <string name="image">image</string>
+    <string name="description">I am the body of description</string>
+    <string name="title">Top Headlines Toaday</string>
+    <string name="some_desc">Some desc</string>
+</resources>
